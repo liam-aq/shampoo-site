@@ -43,6 +43,12 @@ buttonEl.addEventListener("click", () => {
   }
 
   imageEl.src = shuffledQueue[currentIndex];
+
+  // Flash effect on tap
+buttonEl.classList.add("tap-flash");
+setTimeout(() => {
+  buttonEl.classList.remove("tap-flash");
+}, 100); // duration of the flash
 });
 
 // Preload all images

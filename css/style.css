@@ -151,3 +151,29 @@ body {
   font-family: 'Giphurs Medium', sans-serif;
   cursor: pointer;
 }
+
+@media (hover: hover) and (pointer: fine) {
+  #next-button:hover {
+    background: #000000;
+    color: rgb(237, 235, 230);
+  }
+}
+
+a, button {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
+a:focus, button:focus {
+  outline: none;
+}
+
+#next-button.tap-flash {
+  background: #000;
+  color: rgb(237, 235, 230);
+  transition: none;
+}
+
+#next-button {
+  transition: background 0.25s ease, color 0.25s ease;
+}
