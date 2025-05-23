@@ -9,28 +9,31 @@
 </head>
 <body>
 
+<!-- Main shampoo image container -->
 <div class="container">
   <img id="shampoo-image" src="images/shampoo1.png" alt="Shampoo Bottle">
-  <button id="next-button">next shampoo</button>
 </div>
+
+<!-- Fixed, always-centered "next shampoo" button (moved outside container) -->
+<button id="next-button">next shampoo</button>
 
 <!-- Attribution in bottom-left -->
 <div class="footer-attribution">
-    a silly website by <a href="https://liamalexanderquinn.com" target="_blank">liam alexander quinn</a>
+  a silly website by <a href="https://liamalexanderquinn.com" target="_blank">liam alexander quinn</a>
+</div>
+
+<!-- "What?" button in top-right -->
+<button id="info-button">what?</button>
+
+<!-- Info popup panel -->
+<div id="info-panel">
+  <div class="info-box">
+    <p>
+      This is a website for when you're sitting on the toilet. Before mobile phones were a thing, the best entertainment around was the back of the nearest bottle of shampoo. Reject doomscrolling, embrace tradition. Read a shampoo bottle.
+    </p>
+    <button id="close-info" class="popup-close-button">okay</button>
   </div>
-  
-  <!-- "What?" button -->
-  <button id="info-button">what?</button>
-  
-  <!-- Info popup panel -->
-  <div id="info-panel">
-    <div class="info-box">
-      <p>
-        This is a website for when you're sitting on the toilet. Before mobile phones were a thing, the best entertainment around was the back of the nearest bottle of shampoo. Reject doomscrolling, embrace tradition. Read a shampoo bottle.
-      </p>
-      <button id="close-info" class="popup-close-button">okay</button>
-    </div>
-  </div>
+</div>
 
 <script src="js/script.js"></script>
 </body>
