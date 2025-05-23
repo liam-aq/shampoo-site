@@ -8,7 +8,7 @@
 body {
     margin: 0;
     padding: 20px;
-    background: #rgb(237, 235, 230);
+    background: rgb(237, 235, 230);
     font-family: sans-serif;
     display: flex;
     justify-content: center;
@@ -89,7 +89,7 @@ body {
     left: 50%;
     width: 90%;
     max-width: 520px;
-    background: rgb(237, 235, 230);
+    background: rgb(243, 242, 239);
     border: 1px solid black;
     padding: 2rem;
     font-size: 1rem;
@@ -108,7 +108,7 @@ body {
     margin-top: 1rem;
     padding: 10px 20px;
     font-size: 1rem;
-    background: white;
+    background: rgb(243, 242, 239);
     color: black;
     border: 1px solid black;
     border-radius: 0;
